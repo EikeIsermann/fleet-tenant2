@@ -1,0 +1,6 @@
+namespace: tenant-1
+targetCustomizations:
+- name: all
+  helm:
+    values:
+      replication: false
